@@ -1681,3 +1681,18 @@ body {
     font-size: 16px;
   }
 }
+
+/* Lock page scroll when mobile menu is open - iPhone friendly */
+body.menu-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+body.menu-open .main-menu {
+  touch-action: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
