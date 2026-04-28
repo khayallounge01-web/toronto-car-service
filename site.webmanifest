@@ -1,0 +1,26 @@
+{
+  "name": "Toronto Car Service",
+  "short_name": "Toronto Car Service",
+  "description": "Luxury airport transfers, black car service, corporate transportation, private chauffeur service and limousine service across Toronto and the GTA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#030303",
+  "theme_color": "#d6a944",
+  "orientation": "portrait-primary",
+  "lang": "en-CA",
+  "icons": [
+    {
+      "src": "/assets/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
