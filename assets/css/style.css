@@ -356,14 +356,16 @@ li {
 }
 
 .btn-outline-gold {
-  color: var(--gold-2);
+  color: var(--black);
   border-color: var(--gold);
-  background: transparent;
+  background: linear-gradient(135deg, var(--gold-2), var(--gold));
+  box-shadow: 0 12px 25px rgba(214, 169, 68, 0.22);
 }
 
 .btn-outline-gold:hover {
-  background: var(--gold);
+  background: linear-gradient(135deg, var(--gold), var(--gold-2));
   color: var(--black);
+  box-shadow: 0 18px 34px rgba(214, 169, 68, 0.34);
 }
 
 .btn-large {
