@@ -300,7 +300,7 @@
               </div>
               <div class="stars">★★★★★</div>
               <p>${shortenReviewText(review.text, 165)}</p>
-              <a href="faq-book-online.html">Read more</a>
+              <a href="faq-book-online.html">Book Toronto car service</a>
             </article>
           `;
         })
